@@ -1,5 +1,8 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
+import os
+os.chdir('/home/caozhzh/work/rss')
+
 import re
 import urllib
 from xgoogle.BeautifulSoup import BeautifulSoup
